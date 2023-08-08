@@ -1,0 +1,300 @@
+.container{
+    width: 100% ;
+    height: auto;
+   
+}
+.wrapper{
+    width: 100%;
+    margin-top: 50px;
+}
+.wrapper_text{
+    text-align: center;
+    font-weight: 500;
+}
+.wrapper_desc hr{
+    width: 300px;
+    border: 2px solid red;
+}
+.wrapper_content{
+    width: 100%;
+    display: flex;
+    padding: 50px 0 0 0;
+}
+.wrapper_list{
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #EA2027;
+      border-radius: 7px;
+    
+}
+.wrapper_item{
+    display: flex;
+    padding-bottom: 80px;
+    padding-left: 20px;
+   
+
+}
+.wrapper_item-content{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper_item i {
+    font-size: 70px;
+    color:#EA2027 ;
+    padding-right: 20px;
+}
+.wrapper_title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #EA2027;
+}
+.wrapper_label{
+    font-size: 20px;
+}
+.wrapper_img{
+    width: 60%;
+    padding-left: 30px;
+    
+}
+.wrapper_size-img{
+    width: 800px;
+    height: 725px;
+}
+.procedure{
+    width: 100%;
+    height: auto;
+    padding: 100px 0 0 0;
+}
+.procedure_content{
+    padding-top: 120px 0 0 0;
+    background-image: url("../img/backgroud12.jpg");
+    width: 100%;
+    height: auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.procedure_content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.procedure_text{
+    padding-top: 30px;
+     color: #fff;
+    text-align: center;
+}
+.procedure_content hr {
+    width: 20%;
+    border: 1px solid red;
+}
+.procedure_list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0 0 0;
+}
+.procedure_item{
+    width: calc(95%/4);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px  30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+    
+}
+
+.procedure_item p {
+    padding: 20px 0 0 0;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+.replace{
+    width: 100%;
+    height: auto;
+    padding: 120px 0 0 0;
+}
+.replace_content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.replace_text{
+    
+    text-align: center;
+}
+.replace_content hr {
+    width: 20%;
+    border: 1px solid black;
+    
+}
+.replace_list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0 0 0;
+}
+.replace_item{
+    width: calc(95%/4);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px  30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+    
+}
+
+.replace_item p {
+    padding: 20px 0 0 0;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+.maintenance{
+    width: 100%;
+    height: auto;
+    padding: 120px 0 0 0;
+}
+.maintenance_content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.maintenance_text{
+    text-align: center;
+}
+.maintenance_content hr{
+    width: 20%;
+    border: 1px solid red;
+    
+}
+.maintenance_table{
+    width: 100%;
+    
+}
+.table_content{
+    width: 100%;
+   
+}
+.maintenance_table tr {
+    height: 60px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+   
+}
+
+.tabel_th{
+    background-color: red;
+}
+
+.tabel_color{
+    background-color:#ccc ;
+}
+.calendar{
+    width: 100%;
+    height: auto;
+    padding: 120px 0 0 0;
+}
+.calendar_content{
+    
+    background-image: url("../img/bgr_black.jpg");
+    width: 100%;
+    height: auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.calender_container{
+    width: 100%;
+    display: flex;
+    
+}
+.calender_list{
+    width: 100%;
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.calender_img_1{
+    margin-top: 55px;
+    padding-left: 60px;
+}
+.calender_text{
+    width: 700px;
+    background-color: black;
+    
+}
+.list_desc{
+    padding: 10px 30px 20px 0;
+    color: #fff;
+    font-size: 24px;
+}
+.calender_desc{
+    color: #fff;
+    font-size: 20px;
+    padding-right: 30px;
+}
+@media only screen and (max-width:1320px){
+    .wrapper_text{
+        font-size: 30px;
+        max-width: 600px;
+    }
+    .wrapper_desc hr{
+        display: none;
+    }
+    .wrapper_content{
+        flex-direction: column;
+    }
+    .wrapper_list{
+        width: 100%;
+    }
+    .wrapper_img{
+     display: none;
+    }
+    .procedure_list{
+        flex-direction: column;
+    }
+    .procedure_item{
+
+        width: 100%;
+    }
+    .replace_list{
+        flex-direction: column;
+    }
+    .replace_item{
+        width: 100%;
+    }
+    .maintenance_content{
+        width: 100%;
+    }
+    .calender_container{
+        flex-direction: column;
+    }
+    .calender_text{
+        width: 300px;
+    }
+}
+
+a {
+    transition: all 0.3s ease;
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  a:hover {
+    opacity: 0.8;
+    transform: translateY(-3px);
+  }
